@@ -1,0 +1,29 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.controls label {
+  font-size: 1rem;
+}
+
+.controls button {
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  background: linear-gradient(#fff, #eee);
+  cursor: pointer;
+  width: 100%;
+
+  &:hover {
+    background: #edededbc;
+  }
+
+  &:disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+}
