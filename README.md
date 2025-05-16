@@ -1,4 +1,7 @@
-# React + Vite
+## 🚀 Deployment
+
+Check out the live version of the app here:  
+👉 [https://tanya-dombek.github.io/react-cat-app/](https://tanya-dombek.github.io/react-cat-app/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
